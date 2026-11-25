@@ -1,0 +1,24 @@
+# Dependencias do deteccaoredeyolo.py
+# Instalar com: pip install -r requirements.txt
+
+# Dataset (Roboflow)
+roboflow>=1.1.0
+
+# Deep learning
+torch>=1.8.0
+torchvision>=0.9.0
+
+# Configuracao e processamento de imagens
+PyYAML>=5.3.1
+numpy>=1.23.0
+opencv-python>=4.1.1
+Pillow>=9.0.0
+matplotlib>=3.3.0
+
+# Obs.: o YOLOv5 instala as proprias dependencias pelo comando
+#   pip install -r yolov5/requirements.txt
+# (executado dentro da funcao setup_yolo do script).
+#
+# Obs.: "google.colab" NAO entra aqui. Ele ja vem instalado no Google Colab
+# e nao e instalavel via pip. Para rodar fora do Colab, troque
+# userdata.get('Roboflow') por uma variavel de ambiente ou pela chave direta.
